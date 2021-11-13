@@ -48,7 +48,6 @@ jobs:
           wheel \ # this prevents bugs upon installing the next packages
           flake8 \ # awesome linter... Next, plugins:
           cohesion \ # class cohesion analysis
-          flake8-requirements \ # requirements analysis
           flake8-annotations \ # type hints analysis
           flake8-docstrings \ # docstring anaylsis
           flake8-return \ # return statement analysis
@@ -65,7 +64,7 @@ jobs:
           pandas-vet \ # OPTIONAL: # linting made for pandas projects
           flake8-expression-complexity \ # analyzes expressions complexity
           flake8-cognitive-complexity \ # analyzes cognitive complexity
-          flake8-import-order # orders the imports accordingly
+          
           
           # Second command:
           
