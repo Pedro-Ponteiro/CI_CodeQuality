@@ -1,5 +1,5 @@
 # CI_CodeQuality
-A Workflow and pre-commit file with high reusability.
+A Workflow, pre-commit and vs code seetings file with high reusability for python development.
 
 ## Workflow Explanation
 
