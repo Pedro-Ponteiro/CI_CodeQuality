@@ -20,7 +20,7 @@ jobs:
  
   code-quality-enforcer:
   
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     strategy:
       matrix:
         # Change this if you want, but be carefull of compatibility issues at "Flake8 Enforcer" step
