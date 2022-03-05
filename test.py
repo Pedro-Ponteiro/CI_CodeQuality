@@ -1,5 +1,10 @@
-def main() -> None:
-    print('H3ll0 fr13nd')
+"""Module documentation example."""
 
-if __name__ == '__main__':
+
+def main() -> None:
+    """Docstring example."""
+    print("H3ll0 fr13nd")
+
+
+if __name__ == "__main__":
     main()
