@@ -4,6 +4,7 @@ A Workflow, pre-commit, and vs code settings file with high reusability for pyth
 
 ## flake8 plugins Explanation
 
+```python
 wheel \ # this prevents bugs upon installing the next packages (installed at Wheel Installation Step)
 flake8 \ # awesome linter... Next, plugins:
 cohesion \ # class cohesion analysis
@@ -23,3 +24,4 @@ flake8-variables-names \ # deep analysis of variable names
 pandas-vet \ # OPTIONAL: # linting made for pandas projects
 flake8-expression-complexity \ # analyzes expressions complexity
 flake8-cognitive-complexity \ # analyzes cognitive complexity
+```
