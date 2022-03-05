@@ -25,3 +25,15 @@ pandas-vet \ # OPTIONAL: # linting made for pandas projects
 flake8-expression-complexity \ # analyzes expressions complexity
 flake8-cognitive-complexity \ # analyzes cognitive complexity
 ```
+
+## flake8 run command Explanation
+
+```bash
+flake8 --exclude=venv/* \ # exclude venv folder
+--ignore=ANN101,W503 \ # ignore type annotation for "self" and binary operator after line break enforcements
+--max-complexity=10 \ # max cyclomatic complexity
+--max-line-length=88 \
+--max-function-length=20 \ # flake8-function arg
+--max-parameters-amount=5 \ # flake8-function arg
+.
+```
