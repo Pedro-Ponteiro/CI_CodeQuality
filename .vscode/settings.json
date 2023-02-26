@@ -10,9 +10,6 @@
             "source.organizeImports": true
         }
     },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
     "git.confirmSync": false,
     "python.formatting.blackArgs": [
         "--line-length=88"
