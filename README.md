@@ -1,8 +1,8 @@
 # CI_CodeQuality
 
-A Workflow, pre-commit, and vs code settings file with high reusability for python development.
+A Workflow, pre-commit, VS Code and Docker settings file with high reusability for python development.
 
-## flake8 plugins Explanation
+## flake8 plugins Explanation (WorkFlow_requirements.txt)
 
 ```python
 wheel \ # this prevents bugs upon installing the next packages (installed at Wheel Installation Step)
