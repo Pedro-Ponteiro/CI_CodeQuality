@@ -37,3 +37,12 @@ flake8 --exclude=venv/* \ # exclude venv folder
 --max-parameters-amount=5 \ # flake8-function arg
 .
 ```
+
+
+## WorkFlow failed test example
+
+![image](https://user-images.githubusercontent.com/48108738/221396206-17235f39-c24a-464f-9b1a-223b8dc37554.png)
+
+![image](https://user-images.githubusercontent.com/48108738/221396214-4c491834-c469-400f-a734-e5e1bf98ed3d.png)
+
+
