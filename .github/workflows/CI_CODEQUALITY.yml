@@ -29,9 +29,9 @@ jobs:
         run: |
           python${{ matrix.python-version }} -m pip install wheel
 
-      - name: Flake8 and CI packages Installation
+      - name: Flake8 and WorkFlow packages Installation
         run: |
-          python${{ matrix.python-version }} -m pip install -r CI_requirements.txt
+          python${{ matrix.python-version }} -m pip install -r WorkFlow_requirements.txt
 
       - name: Flake8 Enforcer
         run: |
